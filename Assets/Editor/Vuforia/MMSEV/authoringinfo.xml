@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="14.0" toolVersion="9.0.12">
+<ModelTarget name="MMSEV" targetId="c554f423fa324d7b958271ad0ce43a06" version="11.1" toolVersion="9.0.12" bbox="-2.019200 -2.242130 -3.354890 2.019200 1.726420 2.555130" previewImage="c554f423fa324d7b958271ad0ce43a06_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="MMSEVs_assembly" assemblyId="2ec0be4a31a64d818da11d0d7c1cb961">
+<Part name="MMSEV" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="-0.212903 -0.553249 7.66166" rotation="AD: 0.9999865811593956 0.016796006636737713 -0.3247192332490022 185.632" image="MMSEV_viewpoint_0000.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0001" translation="0.21431 -0.55828 9.40704" rotation="AD: 0.9952771152377982 -0.10343439995939487 2.7220802046790267 181.494" image="MMSEV_viewpoint_0001.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>

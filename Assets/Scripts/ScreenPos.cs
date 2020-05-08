@@ -15,7 +15,7 @@ public class ScreenPos : MonoBehaviour
     private Vector2 bottomRight;
 
     float degrees = 0.0f;
-    int increment = 10;
+    int increment = 45;
     int numberOfImages = 0;
 
     // Start is called before the first frame update
@@ -30,17 +30,15 @@ public class ScreenPos : MonoBehaviour
     {
         Vector3 rotation = new Vector3(0, 0, 0);
 
+
         rend = obj.GetComponent<Renderer>();
         PopulateCorners(rend.bounds);
 
-        //StreamWriter sw = null;
+       
         string csvPath = initFile();
-        //if (File.Exists(csvPath))
-        //{
-            //sw = new StreamWriter(csvPath);
-        //}
+        
 
-        while (numberOfImages < 250)
+        while (numberOfImages < 1)
         {
             rotation.y += increment;
 
